@@ -1,0 +1,91 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat</title>
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+
+<div class="'container bootstrap snippets bootdeys d-flex justify-content-center align-self-center">
+<div class="col-md-7 col-xs-12 col-md-offset-2">
+  <!-- Panel Chat -->
+  <div class="panel" id="chat">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        <i class="icon wb-chat-text" aria-hidden="true"></i> Chat
+      </h3>
+    </div>
+    <div class="panel-body">
+      <div class="chats">
+        <div class="chat">
+          <div class="chat-avatar">
+            <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane">
+              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="...">
+              <i></i>
+            </a>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>
+                Good morning, sir.
+                <br>What can I do for you?
+              </p>
+              <time class="chat-time" datetime="2015-07-01T11:37">11:37:08 am</time>
+            </div>
+          </div>
+        </div>
+        <div class="chat chat-left">
+          <div class="chat-avatar">
+            <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher">
+              <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/e7/50/51e750e4-be50-a914-dcb2-b0f4f4270c3a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg" alt="...">
+              <i></i>
+            </a>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Well, I am just looking around.</p>
+              <time class="chat-time" datetime="2015-07-01T11:39">11:39:57 am</time>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-avatar">
+            <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane">
+              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="...">
+              <i></i>
+            </a>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>
+                If necessary, please ask me.
+              </p>
+              <time class="chat-time" datetime="2015-07-01T11:40">11:40:10 am</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-footer">
+      <form action="POST">
+        <div class="input-group">
+          <input type="text" class="form-control" value="" placeholder="Say something">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="button" value="submit" id="question">Send</button>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Panel Chat -->
+</div>
+</div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+ </body>
+</html>
